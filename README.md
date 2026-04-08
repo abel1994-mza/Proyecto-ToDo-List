@@ -13,9 +13,11 @@ Permite crear, editar, completar y eliminar tareas con una interfaz moderna y re
 
 ### 📱 Mobile
 ![Mobile](./screenshots/mobile.png)
+![Mobile](./screenshots/mobile1.png)
 
 ### 💻 Desktop
 ![Desktop](./screenshots/desktop.png)
+![Desktop](./screenshots/desktop1.png)
 
 
 ## ✨ Características
