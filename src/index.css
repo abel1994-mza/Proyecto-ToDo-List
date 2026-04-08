@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary: #1b1b2f;
+    --color-secondary:#3d3d5c;
+    --color-third: #6A6A6A
+
+}
+
+@keyframes  rotateIcon{
+    
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.animate-rotateIcon {
+  animation: rotateIcon 5s linear infinite;
+}
+
+
+.card {
+  background-color: --color-primary; 
+  transition: all 0.5s;      
+}
+
+.card:hover {
+  background-image: linear-gradient(90deg, #8b5cf6, #ec4899, #facc15);
+  background-size: 200% 200%;
+  animation: gradientMove 3s linear infinite;
+}
+
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
