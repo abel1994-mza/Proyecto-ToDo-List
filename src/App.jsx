@@ -72,7 +72,7 @@ function App() {
   <div className="flex flex-col items-center px-4">
 
     {/* BOTONES */}
-    <div className="flex flex-wrap justify-center md:hidden gap-4 mt-4">
+    <div className="flex flex-wrap justify-center md:hidden gap-4 mt-4 mb-8">
       <button onClick={()=>setFilter("all")} className="text-white flex gap-2 font-bold px-3 py-1 rounded hover:bg-gray-700 transition-colors duration-200 cursor-pointer">
         <img src="./public/img/listaAll.png" className="w-5 h-5" />
         All
